@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body, html {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 100px;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .global {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        .alignerLigneBoite {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 10vh 0;
+        }
+
+        .ligne {
+            background-color: rgb(218, 3, 67);
+            height: 5vh;
+            width: 100%;
+        }
+
+        .ligneVertical {
+            background-color: rgb(0, 255, 200);
+            height: 50vh;
+            width: 5vh;
+        }
+
+        .boite {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50vw;
+            height: 50vh;
+            background-color: black;
+            margin: 0 25px;
+        }
+
+        .prompt {
+            background-color: yellow;
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto auto;
+        }
+    </style>
+
+    <title>CSS MARGIN</title>
+</head>
+<body>
+    <div class="global">
+        <div class="ligne"></div>
+        <div class="alignerLigneBoite">
+            <div class="ligneVertical"></div>
+            <div class="boite">
+                THE END
+            </div>
+            <div class="ligneVertical"></div>
+        </div>
+        <div class="ligne"></div>
+    </div>
+
+    <div class="prompt"></div>
+</body>
+</html>
